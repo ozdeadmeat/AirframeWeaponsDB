@@ -101,6 +101,58 @@ return {
             ["weapons.nurs.C_13"] = 4
         },
     },
+    ["L-39C"] = { -- L-39C
+        Rockets = {
+            ["weapons.nurs.C_5"] = 32, -- S-5KO HEAT/Frag
+            ["weapons.nurs.S_5KP"] = 32, -- S-5KP HEAT/Frag
+            ["weapons.nurs.S_5M"] = 32, -- S-5M HE
+        },
+        AAMissiles = {
+            ["weapons.missiles.R-3S"] = 2, -- R-3S
+        },
+        Bombs = {
+            ["weapons.bombs.FAB_100"] = 2, -- OFAB-100-120
+            ["weapons.bombs.P-50T"] = 2, -- P-50T - 50kg Practice Bomb LD
+            ["weapons.bombs.SAB_100MN"] = 2, -- SAB-100MN
+        },
+        Pods = {
+            ["weapons.containers.R-73U"] = 2, -- Smoke Generator - red            
+            ["weapons.containers.{INV-SMOKE-RED}"] = 1, -- Smoke Generator - red            
+        },
+        Tanks = {
+            ["weapons.droptanks.FuelTank_150L"] = 2, -- Fuel Tank 150 liters
+        },
+    }, 
+    ["L-39ZA"] = { -- L-39ZA
+        Rockets = {
+            ["weapons.nurs.C_5"] = 64, -- S-5KO HEAT/Frag
+            ["weapons.nurs.S_5KP"] = 64, -- S-5KP HEAT/Frag
+            ["weapons.nurs.S_5M"] = 64, -- S-5M HE
+        },
+        AAMissiles = {
+            ["weapons.missiles.P_60"] = 2, -- R-60M
+            ["weapons.missiles.R-3S"] = 2, -- R-3S
+        },
+        Bombs = {
+            ["weapons.bombs.FAB-250-M62"] = 4, -- FAB-250M-62 GP
+            ["weapons.bombs.FAB_100"] = 4, -- OFAB-100-120
+            ["weapons.bombs.FAB_250"] = 4, -- OFAB-250-270
+            ["weapons.bombs.OFAB-100 Jupiter"] = 8, -- OFAB-100 Jupiter - 100kg GP Bomb HD
+            -- ["weapons.bombs.P-50T"] = 4, -- P-50T - 50kg Practice Bomb LD
+            ["weapons.bombs.SAB_100MN"] = 4, -- SAB-100MN
+        },
+        Pods = {
+            ["weapons.containers.R-73U"] = 2, -- Smoke Generator - red
+            ["weapons.containers.{INV-SMOKE-RED}"] = 1, -- Smoke Generator - red
+        },
+        GunPods = {
+            ["weapons.containers.{PK-3}"] = 4, -- PK-3 - 7.62mm GPMG
+        },
+        Tanks = {
+            ["weapons.droptanks.FuelTank_150L"] = 2, -- Fuel Tank 150 liters
+            ["weapons.droptanks.FuelTank_350L"] = 2, -- Fuel Tank 350 liters
+        },
+    },
     ["Mi-24P"] = {
         Rockets = {
             ["weapons.nurs.C_24"] = 4,
@@ -392,6 +444,119 @@ return {
             ["weapons.bombs.ROCKEYE"] = 8,
         },
     },
+    ["F-4E-45MC"] = { -- F-4E Phantom II
+
+        Rockets = {
+            ["weapons.nurs.FFAR M156 WP"] = 285, -- Mk 4 FFAR M156 WP
+            ["weapons.nurs.FFAR Mk1 HE"] = 285, -- Mk 4 FFAR Mk 1 HE
+            ["weapons.nurs.FFAR Mk5 HEAT"] = 285, -- Mk 4 FFAR Mk 5 HEAT
+            ["weapons.nurs.Zuni_127"] = 48, -- Zuni Mk 24 Mod 1 HE
+        },
+
+        AAMissiles = {
+            ["weapons.missiles.AIM-9E"] = 4, -- AIM-9E
+            ["weapons.missiles.AIM-9J"] = 4, -- AIM-9J
+            ["weapons.missiles.AIM-9JULI"] = 4, -- AIM-9JULI
+            ["weapons.missiles.AIM-9L"] = 4, -- AIM-9L
+            ["weapons.missiles.AIM-9P"] = 4, -- AIM-9P
+            ["weapons.missiles.AIM-9P3"] = 4, -- AIM-9P3
+            ["weapons.missiles.AIM-9P5"] = 4, -- AIM-9P5
+            ["weapons.missiles.AIM_7"] = 4, -- AIM-7M
+            ["weapons.missiles.AIM_9"] = 4, -- AIM-9M
+            ["weapons.missiles.CATM_9M"] = 4, -- CATM-9M
+            ["weapons.missiles.GAR-8"] = 4, -- AIM-9B
+            ["weapons.missiles.HB-AIM-7E"] = 4, -- AIM-7E
+            ["weapons.missiles.HB-AIM-7E-2"] = 4, -- AIM-7E-2
+            ["weapons.missiles.AIM-7F"] = 4, -- AIM-7F (added)
+        },
+
+        AGMissiles = {
+            ["weapons.missiles.AGM_12A"] = 4, -- AGM-12A
+            ["weapons.missiles.AGM_12B"] = 4, -- AGM-12B
+            ["weapons.missiles.AGM_12C_ED"] = 2, -- AGM-12C Bullpup
+            ["weapons.missiles.AGM_45A"] = 4, -- AGM-45A Shrike
+            ["weapons.missiles.AGM_45B"] = 4, -- AGM-45B Shrike
+            ["weapons.missiles.AGM_65A"] = 6, -- AGM-65A
+            ["weapons.missiles.AGM_65B"] = 6, -- AGM-65B
+            ["weapons.missiles.AGM_65D"] = 6, -- AGM-65D
+            ["weapons.missiles.AGM_65G"] = 2, -- AGM-65G
+        },
+
+        Bombs = {
+            ["weapons.bombs.BDU_33"] = 24, -- BDU-33
+            ["weapons.bombs.BDU_50HD"] = 24, -- BDU-50HD
+            ["weapons.bombs.BDU_50LD"] = 24, -- BDU-50LD
+            ["weapons.bombs.BLU-49/B"] = 720, -- BLU-49/B, 18 x 40
+            ["weapons.bombs.Durandal"] = 12, -- BLU-107/B Durandal
+            ["weapons.bombs.LUU_2B"] = 96, -- LUU-2B, 6 x (2 x 8); verify warehouse accounting
+            ["weapons.bombs.M_117"] = 17, -- M117
+            ["weapons.bombs.Mk_81"] = 24, -- Mk-81
+            ["weapons.bombs.Mk_82"] = 24, -- Mk-82
+            ["weapons.bombs.MK_82AIR"] = 24, -- Mk-82 AIR
+            ["weapons.bombs.MK_82SNAKEYE"] = 24, -- Mk-82 Snakeye
+            ["weapons.bombs.Mk_83"] = 13, -- Mk-83
+            ["weapons.bombs.Mk_84"] = 3, -- Mk-84
+            ["weapons.bombs.Mk_84AIR_GP"] = 4, -- Mk-84 AIR GP HD
+            ["weapons.bombs.SAMP250HD"] = 15, -- SAMP-250 HD
+            ["weapons.bombs.SAMP250LD"] = 15, -- SAMP-250 LD
+        },
+
+        LBombs = {
+            ["weapons.bombs.BDU_45LGB"] = 6, -- BDU-45 LGB
+            ["weapons.bombs.GBU_10"] = 4, -- GBU-10
+            ["weapons.bombs.GBU_12"] = 6, -- GBU-12
+            ["weapons.bombs.GBU_24"] = 4, -- GBU-24A/B
+        },
+
+        GBombs = {
+            ["weapons.bombs.AGM_62"] = 2, -- AGM-62 Walleye II
+            ["weapons.bombs.AGM_62_I"] = 4, -- AGM-62 Walleye I
+            ["weapons.bombs.GBU_8_B"] = 4, -- GBU-8/B HOBOS
+        },
+
+        Clusters = {
+            ["weapons.bombs.BL_755"] = 13, -- BL755
+            ["weapons.bombs.BLU-18/B_GROUP"] = 4800, -- CBU-7/A: 4 dispensers x 1,200 BLU-18/B bomblets
+            ["weapons.bombs.BLU-3_GROUP"] = 1805,  -- CBU-2/A: 5 dispensers x 361 BLU-3 bomblets
+            ["weapons.bombs.BLU-3B_GROUP"] = 2090, -- CBU-2B/A: 5 dispensers x 418 BLU-3B bomblets
+            ["weapons.bombs.BLU-4B_GROUP"] = 2565, -- CBU-1A/A: 5 dispensers x 513 BLU-4B bomblets
+            ["weapons.bombs.CBU_52B"] = 10, -- CBU-52B
+            ["weapons.bombs.CBU_87"] = 14, -- CBU-87
+            ["weapons.bombs.ROCKEYE"] = 12, -- Mk-20 Rockeye
+        },
+
+        Pods = {
+            ["weapons.containers.AIM-9S"] = 4, -- Smokewinder Red
+            ["weapons.containers.ais-pod-t50"] = 4, -- ACMI Pod
+            ["weapons.containers.ALQ-131"] = 3, -- ALQ-131 ECM
+            ["weapons.containers.GD_F100_SUU-13"] = 4, -- CBU-7/A: 4 dispensers, 1,200 BLU-18/B bomblets each
+            ["weapons.containers.HB_ALE_40_0_0"] = 1, -- ALE-40 Empty
+            ["weapons.containers.HB_ALE_40_0_120"] = 1, -- ALE-40 120 Chaff
+            ["weapons.containers.HB_ALE_40_15_90"] = 1, -- ALE-40 15 Flares + 90 Chaff
+            ["weapons.containers.HB_ALE_40_30_0"] = 1, -- ALE-40 30 Flares
+            ["weapons.containers.HB_ALE_40_30_60"] = 1, -- ALE-40 30 Flares + 60 Chaff
+            ["weapons.containers.HB_ORD_MER"] = 1, -- SUU-25 target marker MER
+            ["weapons.containers.HB_ORD_Missile_Well_Adapter"] = 1, -- Pave Spike rack
+            ["weapons.containers.HB_ORD_Pave_Spike"] = 1, -- Pave Spike
+            ["weapons.containers.HB_ORD_Pave_Spike_Fast"] = 1, -- Pave Spike Fast/Smart Track
+        },
+
+        GunPods = {
+            ["weapons.containers.{GPU_5_POD}"] = 1, -- GPU-5
+            ["weapons.containers.{SUU_23_POD_Centerline}"] = 1, -- SUU-23 Centerline
+            ["weapons.containers.{SUU_23_POD_Wing}"] = 2, -- SUU-23 Wing
+        },
+
+        Tanks = {
+            ["weapons.droptanks.HB_F-4E_EXT_Center_Fuel_Tank"] = 1, -- Centerline 600 gal
+            ["weapons.droptanks.HB_F-4E_EXT_Center_Fuel_Tank_EMPTY"] = 1, -- Centerline Empty
+            ["weapons.droptanks.HB_F-4E_EXT_WingTank"] = 1, -- Left Wing 370 gal
+            ["weapons.droptanks.HB_F-4E_EXT_WingTank_EMPTY"] = 1, -- Left Wing Empty
+            ["weapons.droptanks.HB_F-4E_EXT_WingTank_R"] = 1, -- Right Wing 370 gal
+            ["weapons.droptanks.HB_F-4E_EXT_WingTank_R_EMPTY"] = 1, -- Right Wing Empty
+        },
+    },
+
     ["F-15ESE"] = {
         Rockets = {
             ["weapons.nurs.HYDRA_70_M151"] = 42,    --M151 HE
@@ -450,6 +615,7 @@ return {
             ["weapons.bombs.CBU_105"] = 8
         },
     },
+    -- F-16C Block 50 weapons database: review in progress
     ["F-16C_50"] = {
         Rockets = {
             ["weapons.nurs.HYDRA_70_M151"] = 42,    --M151 HE
@@ -578,6 +744,59 @@ return {
             ["weapons.bombs.CBU_99"] = 10
         },
     },
+    ["Su-25"] = { -- Su-25
+        Rockets = {
+            ["weapons.nurs.C_13"] = 40, -- S-13OF Blast/Fragmentation
+            ["weapons.nurs.C_24"] = 8, -- S-24B
+            ["weapons.nurs.C_25"] = 8, -- S-25-OFM Hardened Target Penetrator
+            ["weapons.nurs.C_5"] = 256, -- S-5KO HEAT/Frag
+            ["weapons.nurs.C_8"] = 160, -- S-8KOM HEAT/Frag
+            ["weapons.nurs.C_8CM"] = 160, -- S-8TsM SM Orange
+            ["weapons.nurs.C_8OFP2"] = 160, -- S-8OFP2 MPP
+            ["weapons.nurs.C_8OM"] = 160, -- S-8OM IL
+            ["weapons.nurs.S-25-O"] = 8, -- S-25-O Fragmentation
+            ["weapons.nurs.S_5KP"] = 256, -- S-5KP HEAT/Frag
+            ["weapons.nurs.S_5M"] = 256, -- S-5M HE
+        },
+        AAMissiles = {
+            ["weapons.missiles.P_60"] = 2, -- R-60M
+            ["weapons.missiles.R-60"] = 2, -- R-60
+        },
+        AGMissiles = {
+            ["weapons.missiles.S_25L"] = 8, -- S-25L
+            ["weapons.missiles.X_25ML"] = 4, -- Kh-25ML (AS-10 Karen)
+            ["weapons.missiles.X_29L"] = 2, -- Kh-29L (AS-14 Kedge)
+        },
+        Bombs = {
+            ["weapons.bombs.BetAB_500"] = 8, -- BetAB-500
+            ["weapons.bombs.BetAB_500ShP"] = 8, -- BetAB-500ShP
+            ["weapons.bombs.FAB-250-M62"] = 8, -- FAB-250M-62 GP
+            ["weapons.bombs.FAB_100"] = 32, -- OFAB-100-120
+            ["weapons.bombs.FAB_250"] = 8, -- OFAB-250-270
+            ["weapons.bombs.FAB_500"] = 8, -- FAB-500M-62
+            ["weapons.bombs.SAB_100MN"] = 8, -- SAB-100MN
+            ["weapons.bombs.SAB_250_200"] = 8, -- SAB-250-200
+        },
+        Clusters = {
+            ["weapons.bombs.BKF_AO2_5RT"] = 64, -- BKF - 12 x AO-2.5RT
+            ["weapons.bombs.BKF_PTAB2_5KO"] = 64, -- BKF - 12 x PTAB-2.5KO
+            ["weapons.bombs.RBK_250"] = 8, -- RBK-250 PTAB-2.5M
+            ["weapons.bombs.RBK_250_275_AO_1SCH"] = 8, -- RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag
+            ["weapons.bombs.RBK_500AO"] = 8, -- RBK-500-255 PTAB-10-5
+            ["weapons.bombs.RBK_500U"] = 8, -- RBK-500 PTAB-1M
+            ["weapons.bombs.RBK_500U_OAB_2_5RT"] = 8, -- RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag
+        },
+        Pods = {
+            ["weapons.containers.R-73U"] = 2, -- Smoke Generator - red
+            ["weapons.containers.SPS-141"] = 1, -- SPS-141 - ECM Jamming Pod
+        },
+        GunPods = {
+            ["weapons.containers.{E92CBFE5-C153-11d8-9897-000476191836}"] = 4, -- SPPU-22-1 - 2 x 23mm  GSh-23L Autocannon Pod
+        },
+        Tanks = {
+            ["weapons.droptanks.PTB-800"] = 4, -- Fuel tank 800L Wing
+        },
+    },
     ["Su-25T"] = {
         Rockets = {
             ["weapons.nurs.S-5M"] = 256,            -- S-5-M
@@ -633,7 +852,7 @@ return {
             ["weapons.bombs.RBK_500U_OAB_2_5RT"] = 8    -- RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag
         },
     },
-["Su-27"] = { -- Su-27
+    ["Su-27"] = { -- Su-27
         Rockets = {
             ["weapons.nurs.C_13"] = 20, -- S-13OF Blast/Fragmentation
             ["weapons.nurs.C_25"] = 4, -- S-25-OFM Hardened Target Penetrator
@@ -668,7 +887,7 @@ return {
             ["weapons.bombs.RBK_500U_OAB_2_5RT"] = 6, -- RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag
         },
         Pods = {
-            -- ["weapons.containers.R-73U"] = 9, -- Smoke Generator - red
+            ["weapons.containers.R-73U"] = 9, -- Smoke Generator - red
             ["weapons.containers.SORBCIJA_L"] = 1, -- L005 Sorbtsiya ECM pod (left)
             ["weapons.containers.SORBCIJA_R"] = 1, -- L005 Sorbtsiya ECM pod (right)
         },
@@ -707,7 +926,7 @@ return {
             ["weapons.bombs.RBK_500U_OAB_2_5RT"] = 8, -- RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag
         },
         Pods = {
-            -- ["weapons.containers.R-73U"] = 11, -- Smoke Generator - red
+            ["weapons.containers.R-73U"] = 11, -- Smoke Generator - red
             ["weapons.containers.SORBCIJA_L"] = 1, -- L005 Sorbtsiya ECM pod (left)
             ["weapons.containers.SORBCIJA_R"] = 1, -- L005 Sorbtsiya ECM pod (right)
         },
@@ -723,7 +942,18 @@ return {
             ["weapons.droptanks.PTB600_MIG15"] = 2, -- Fuel Tank 600 liters
         },
     },
-     ["MiG-19P"] = { -- MiG-19P
+    ["MiG-15bis_FC"] = { -- MiG-15bis FC
+        Bombs = {
+            ["weapons.bombs.FAB_100M"] = 2, -- FAB-100M - 100kg GP Bomb LD
+            ["weapons.bombs.FAB_50"] = 2, -- FAB-50 - 50kg GP Bomb LD
+        },
+        Tanks = {
+            ["weapons.droptanks.PTB300_MIG15"] = 2, -- Fuel Tank 300 liters
+            ["weapons.droptanks.PTB400_MIG15"] = 2, -- Fuel Tank 400 liters
+            ["weapons.droptanks.PTB600_MIG15"] = 2, -- Fuel Tank 600 liters
+        },
+    },
+    ["MiG-19P"] = { -- MiG-19P
         Rockets = {
             ["weapons.nurs.S_5M"] = 32, -- S-5M HE
         },
@@ -735,9 +965,9 @@ return {
         AAMissiles = {
             ["weapons.missiles.R-3S"] = 2, -- K-13A (R-3S)
             --The K-13A uses the weapons.missiles.R-3S identifier traced through the DCS Lua Datamine.
-        },
+        },       
         Pods = {
-            -- ["weapons.containers.R-73U"] = 2, -- Smoke Generator - red
+            ["weapons.containers.R-73U"] = 2, -- Smoke Generator - red
         },
         Tanks = {
             ["weapons.droptanks.PTB760_MIG19"] = 2, -- Fuel Tank 760 liters
@@ -783,7 +1013,7 @@ return {
             ["weapons.containers.ASO-2"] = 1, -- ASO-2 - countermeasures pod
             ["weapons.containers.SPRD-99"] = 1, -- SPRD-99
             ["weapons.containers.SPS-141-100"] = 1, -- SPS-141-100 (21) - jamming and countermeasures pod
-            -- ["weapons.containers.{MIG21_SMOKE_WHITE}"] = 1, -- Smoke - white - 21
+            ["weapons.containers.{MIG21_SMOKE_WHITE}"] = 1, -- Smoke - white - 21
         },
         GunPods = {
             ["weapons.containers.{UPK-23-250 MiG-21}"] = 2, -- UPK-23-250 - gun pod
@@ -826,7 +1056,7 @@ return {
             ["weapons.bombs.RBK_500U"] = 4,
         },
         Pods = {
-            -- ["weapons.containers.R-73U"] = 7, -- Red smoke generator
+            ["weapons.containers.R-73U"] = 7, -- Red smoke generator
         },
         Tanks = {
             ["weapons.droptanks.PTB-1150-29"] = 2,
@@ -865,7 +1095,7 @@ return {
             ["weapons.bombs.RBK_500U"] = 4, -- RBK-500 PTAB-1M
         },
         Pods = {
-            -- ["weapons.containers.R-73U"] = 7, -- Smoke Generator - red
+            ["weapons.containers.R-73U"] = 7, -- Smoke Generator - red
         },
         Tanks = {
             ["weapons.droptanks.PTB-1150-29"] = 2, -- Fuel tank 1150L MiG-29
@@ -905,11 +1135,33 @@ return {
             ["weapons.bombs.RBK_500U"] = 4, -- RBK-500 PTAB-1M
         },
         Pods = {
-            -- ["weapons.containers.R-73U"] = 7, -- Smoke Generator - red
+            ["weapons.containers.R-73U"] = 7, -- Smoke Generator - red
         },
         Tanks = {
             ["weapons.droptanks.PTB-1150-29"] = 2, -- Fuel tank 1150L MiG-29
             ["weapons.droptanks.PTB-1500"] = 1, -- Fuel tank 1400L
         },
     },
+    ["I-16"] = { -- I-16
+        Rockets = {
+            ["weapons.nurs.RS-82"] = 6, -- RS-82
+        },
+        Bombs = {
+            ["weapons.bombs.FAB_100SV"] = 2, -- FAB-100SV
+        },
+        Tanks = {
+            ["weapons.droptanks.i16_eft"] = 2, -- I-16 External Fuel Tank
+        },
+    
+    },
+    ["Yak-52"] = { -- Yak-52
+    Pods = {
+        ["weapons.containers.{INV-SMOKE-BLUE}"] = 1,
+        ["weapons.containers.{INV-SMOKE-GREEN}"] = 1,
+        ["weapons.containers.{INV-SMOKE-ORANGE}"] = 1,
+        ["weapons.containers.{INV-SMOKE-RED}"] = 1,
+        ["weapons.containers.{INV-SMOKE-WHITE}"] = 1,
+        ["weapons.containers.{INV-SMOKE-YELLOW}"] = 1,
+    },
+},
 }

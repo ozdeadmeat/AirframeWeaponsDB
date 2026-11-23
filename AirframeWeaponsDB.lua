@@ -567,7 +567,13 @@ return {
             ["weapons.containers.AAQ-28_LITENING"] = 1,     -- Center Litening Pod
             ["weapons.containers.aaq-28LEFT litening"] = 1, -- Left Litening Pod
             ["weapons.containers.AN_ASQ_228"] = 1, --ATFLIR Pod
-            ["weapons.containers.ANAWW_13"] = 1 --Datalink Pod
+            ["weapons.containers.ANAWW_13"] = 1, --Datalink Pod
+            -- ["weapons.containers.{INV-SMOKE-RED}"] = 1, --Smokewinder Red
+            -- ["weapons.containers.{INV-SMOKE-BLUE}"] = 1, --Smokewinder Blue
+            -- ["weapons.containers.{INV-SMOKE-GREEN}"] = 1, --Smokewinder Green
+            -- ["weapons.containers.{INV-SMOKE-ORANGE}"] = 1, --Smokewinder Orange
+            -- ["weapons.containers.{INV-SMOKE-WHITE}"] = 1, --Smokewinder White
+            -- ["weapons.containers.{INV-SMOKE-YELLOW}"] = 1 --Smokewinder Yellow
         },
         Tanks = {
             ["weapons.droptanks.FPU_8A"] = 3,
@@ -794,7 +800,45 @@ return {
             ["weapons.droptanks.PTB-800-MIG21"] = 1, -- Fuel Tank 800 L (21)
         },
     },
-    ["MiG-29A"] = { -- MiG-29A Fulcrum
+    ["MiG-29 Fulcrum"] = { -- MiG-29A Fulcrum (Full Fidelity)
+        Rockets = {
+            ["weapons.nurs.C_24"] = 4, -- S-24B
+            ["weapons.nurs.C_8"] = 80, -- S-8KOM
+            ["weapons.nurs.C_8CM"] = 80, -- S-8TsM
+            ["weapons.nurs.C_8OFP2"] = 80, -- S-8OFP2
+        },
+        AAMissiles = {
+            ["weapons.missiles.P_27P"] = 2, -- R-27R
+            ["weapons.missiles.P_27PE"] = 2, -- R-27ER
+            ["weapons.missiles.P_27T"] = 2, -- R-27T
+            ["weapons.missiles.P_27TE"] = 2, -- R-27ET
+            ["weapons.missiles.P_60"] = 6, -- R-60M
+            ["weapons.missiles.P_73"] = 6, -- R-73
+            ["weapons.missiles.R-60"] = 6, -- R-60
+        },
+        Bombs = {
+            ["weapons.bombs.BetAB_500"] = 4,
+            ["weapons.bombs.BetAB_500ShP"] = 4,
+            ["weapons.bombs.FAB-250-M62"] = 4,
+            ["weapons.bombs.FAB_250"] = 4,
+            ["weapons.bombs.FAB_500"] = 4,
+        },
+        Clusters = {
+            ["weapons.bombs.BKF_AO2_5RT"] = 32,
+            ["weapons.bombs.BKF_PTAB2_5KO"] = 32,
+            ["weapons.bombs.RBK_250"] = 4,
+            ["weapons.bombs.RBK_250_275_AO_1SCH"] = 4,
+            ["weapons.bombs.RBK_500AO"] = 4,
+            ["weapons.bombs.RBK_500U"] = 4,
+        },
+        Pods = {
+            -- ["weapons.containers.R-73U"] = 7, -- Red smoke generator
+        },
+        Tanks = {
+            ["weapons.droptanks.PTB_1500_MIG29A"] = 1, -- Mig-29A Fulcrum FF 1400L Center Tank
+        },
+    },
+    ["MiG-29A"] = { -- MiG-29A FC
         Rockets = {
             ["weapons.nurs.C_24"] = 4, -- S-24B
             ["weapons.nurs.C_8"] = 80, -- S-8KOM
@@ -910,6 +954,45 @@ return {
         Tanks = {
             ["weapons.droptanks.PTB-1150-29"] = 2, -- Fuel tank 1150L MiG-29
             ["weapons.droptanks.PTB-1500"] = 1, -- Fuel tank 1400L
+        },
+    },
+    ["M-2000C"] = { -- Mirage 2000C
+        Rockets = {
+            ["weapons.nurs.HYDRA_70_MK5"] = 72, -- Matra Type 155 Rocket Pod
+        },
+        AAMissiles = {
+            ["weapons.missiles.MMagicII"] = 4, -- Matra Magic II
+            ["weapons.missiles.Matra Super 530D"] = 2, -- Super 530D
+        },
+        Bombs = {
+            ["weapons.bombs.Mk_82"] = 6, -- Mk 82 (500 lb GP)
+            ["weapons.bombs.MK_82AIR"] = 12, -- Mk 82 Air (500 lb GP with retarding fins)
+            ["weapons.bombs.MK_82SNAKEYE"] = 12, -- Mk 82 Snakeye (500 lb GP with retarding fins)
+            ["weapons.bombs.SAMP250LD"] = 1, -- SAMP 250 LD
+            ["weapons.bombs.SAMP250HD"] = 1, -- SAMP 250 HD
+        },
+        LBombs = {
+            ["weapons.bombs.GBU_12"] = 6, -- GBU-12 Paveway II
+            ["weapons.bombs.GBU_16"] = 4, -- GBU-16 Paveway II
+            ["weapons.bombs.GBU_24"] = 2, -- GBU-24 Paveway III
+        },
+        Clusters = {
+            ["weapons.bombs.BLG66_BELOUGA"] = 8 -- BLG-66 Belouga Cluster Bomb
+        },
+        Pods = {
+            ["weapons.containers.{EclairM_06}"] = 1, -- Eclair-M 0/6 : 108 chaffs Countermeasures Pod
+            ["weapons.containers.{EclairM_15}"] = 1, -- Eclair-M 1/5 : 8 flares 90 chaffs Countermeasures Pod
+            ["weapons.containers.{EclairM_24}"] = 1, -- Eclair-M 2/4 : 16 flares 72 chaffs Countermeasures Pod
+            ["weapons.containers.{EclairM_33}"] = 1, -- Eclair-M 3/3 : 24 flares 54 chaffs Countermeasures Pod
+            ["weapons.containers.{EclairM_42}"] = 1, -- Eclair-M 4/2 : 32 flares 36 chaffs Countermeasures Pod
+            ["weapons.containers.{EclairM_51}"] = 1, -- Eclair-M 5/1 : 40 flares 18 chaffs Countermeasures Pod
+            ["weapons.containers.{EclairM_60}"] = 1, -- Eclair-M 6/0 : 48 flares 0 chaffs Countermeasures Pod
+            ["weapons.containers.{Eclair}"] = 1,     -- Eclair 16 flares 16 chaffs Countermeasures Pod
+        },
+        Tanks = {
+            ["weapons.droptanks.M2KC_02_RPL541"] = 2, -- Fuel tank 2000L (Wing Tank Left) [name '_02_' is Pylon#]
+            ["weapons.droptanks.M2KC_08_RPL541"] = 1, -- Fuel tank 2000L (Wing Tank Right) [name '_08_' is Pylon#]
+            ["weapons.droptanks.M2KC_RPL_522"] = 1, -- Fuel tank 1300L (Center Tank)
         },
     },
 }

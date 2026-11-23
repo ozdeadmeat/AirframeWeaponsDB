@@ -32,3 +32,5 @@ dofile(AirframeWeaponsDB_PATH .. "init.lua")
 ## Thank you's
 
 Thank you to my Patreon members, I wish more of you could write Lua but I am grateful for your support.
+
+Special shout out to Catgh2000 for assisting me. Thank you mate.

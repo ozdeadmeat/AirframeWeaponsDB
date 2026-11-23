@@ -34,3 +34,32 @@ dofile(AirframeWeaponsDB_PATH .. "init.lua")
 Thank you to my Patreon members, I wish more of you could write Lua but I am grateful for your support.
 
 Special shout out to Catgh2000 for assisting me. Thank you mate.
+
+## Status
+
+### Playable
+- OH58D 		(Kiowa)		- :white_check_mark:
+- AH-64D_BLK_II (Apache)	- :white_check_mark:
+- CH-47Fbl1		(Chinook)	- :white_check_mark:
+- UH-1H			(Huey)		- :white_check_mark:
+- Ka-50_3 		(BlackShark)- :white_check_mark:
+- Mi-24P		(Hind)		- Close to Complete
+- Mi-8MTV2		(Hip)		- :white_check_mark:
+- SA342L		(Gazelle L) - :white_check_mark:
+- SA342M		(Gazelle M) - :white_check_mark:
+- SA342Minigun 	(Gazelle)	- :white_check_mark:
+- A-10A			(Warthog FC)- :white_check_mark:
+- A-10C			(Warthog) 	- :white_check_mark:
+- A-10C_2		(Tank Killer)- :white_check_mark:
+- AV8BNA		(Harrier)	- :white_check_mark:
+- F-15ESE		(StrikeEagle)- :white_check_mark:
+- F-16C_50		(Viper)		- :white_check_mark:
+- FA-18C_hornet	(Hornet)	- :white_check_mark:
+- Su-25T		(Frogfoot)	- :white_check_mark:
+- Su-27
+- Su-33
+- MiG-15bis
+- MiG-21Bis
+- MiG-29A		(Fulcrum FC)
+- MiG-29 Fulcrum (Fulcrum)	- :white_check_mark:
+- M-2000C		(Mirage2000)- :white_check_mark:
